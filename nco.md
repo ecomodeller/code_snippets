@@ -1,5 +1,19 @@
 # Netcdf Operators
 
+Extract metadata
+
+```
+ncks -M file.nc
+```
+
+Extract variable metadata
+
+```
+ncks -m file.nc
+```
+
+
+
 Append variables
 
 ```
