@@ -1,3 +1,6 @@
+Read data from MySQL
+
+    import pandas as pd
     import MySQLdb
     mysql_cn= MySQLdb.connect(host='myhost', 
                 port=3306,user='myusername', passwd='mypassword', 
