@@ -28,3 +28,9 @@ ncks -A -d depth,1,10 MyGlobalTEM\2017090400F000.nc surf.nc
 ncks -A -d depth,1,10 MyGlobalSAL\2017090400F000.nc surf.nc
 ```
 
+Edit attributes
+*e.g. to fix bad time units*
+```
+ncap2 -O -s "time@units=\"hours since 1900-01-01 00:00\"" input.nc output.nc
+```
+
